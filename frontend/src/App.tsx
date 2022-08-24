@@ -1,11 +1,8 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
-import {Listing} from 'pages/Listing';
-import {Form} from 'pages/Form';
-import {Navbar} from "./Components/NavBar";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Listing } from './pages/Listing'
+import { Form } from './pages/Form'
+import { Navbar } from './Components/NavBar'
+import React from 'react'
 
 function App() {
   return (
@@ -18,7 +15,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

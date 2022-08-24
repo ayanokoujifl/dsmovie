@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.springreact.dsmovie.dto.MovieDTO;
-import com.springreact.dsmovie.entidades.Movie;
+import com.springreact.dsmovie.entities.Movie;
 import com.springreact.dsmovie.repositories.MovieRepository;
 
 @Service

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import {MovieScore} from './MovieScore';
+import React from 'react'
+
 export function MovieCard(){
     const movie = {
         id: 1,

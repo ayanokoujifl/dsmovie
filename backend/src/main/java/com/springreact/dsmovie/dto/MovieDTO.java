@@ -1,6 +1,6 @@
 package com.springreact.dsmovie.dto;
 
-import com.springreact.dsmovie.entidades.Movie;
+import com.springreact.dsmovie.entities.Movie;
 
 public class MovieDTO {
 	private Long id;

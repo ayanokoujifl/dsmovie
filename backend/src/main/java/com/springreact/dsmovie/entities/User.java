@@ -1,4 +1,4 @@
-package com.springreact.dsmovie.entidades;
+package com.springreact.dsmovie.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

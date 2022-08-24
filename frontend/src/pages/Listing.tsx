@@ -1,6 +1,8 @@
-import { Pagination } from "Components/Pagination";
-import "Components/Pagination.css";
-import { MovieCard } from "Components/MovieCard";
+import { Pagination } from '../Components/Pagination'
+import '../Components/Pagination.css'
+import React from 'react'
+import { MovieCard } from '../Components/MovieCard'
+
 export function Listing() {
   return (
     <>
@@ -22,5 +24,5 @@ export function Listing() {
         </div>
       </div>
     </>
-  );
+  )
 }

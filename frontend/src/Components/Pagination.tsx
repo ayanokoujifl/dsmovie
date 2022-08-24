@@ -1,4 +1,5 @@
-import{ReactComponent as Arrow} from 'assets/Vector.svg';
+import{ReactComponent as Arrow} from '../assets/Vector.svg';
+import React from 'react'
 
 export function Pagination(){
     return(

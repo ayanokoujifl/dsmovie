@@ -4,7 +4,7 @@ header {
   display: flex;
   align-items: center;
 }
-.dsmovie-nav-content {
+        .dsmovie-nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,27 +12,26 @@ header {
   color: #fff;
 }
 
-.dsmovie-nav-content h1{
-    margin: 0;
-    font-weight: 700;
+.dsmovie-nav-content h1 {
+  margin: 0;
+  font-weight: 700;
 }
 
-.dsmovie-nav-icon{
-    display: flex;
-    margin: 0;
-    align-items: center;
+.dsmovie-nav-icon {
+  display: flex;
+  margin: 0;
+  align-items: center;
 }
 
-.dsmovie-nav-icon p{
-    margin: 0 0 0 10px;
-    vertical-align: middle;
-    font-size: 12px;
-
+.dsmovie-nav-icon p {
+  margin: 0 0 0 10px;
+  vertical-align: middle;
+  font-size: 12px;
 }
-.dsmvoie-align{    
-    margin:0;
+.dsmvoie-align {
+  margin: 0;
 }
 
-.dsmovie-link{
-    color: #fff;
+.dsmovie-link {
+  color: #fff;
 }
