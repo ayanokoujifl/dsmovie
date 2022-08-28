@@ -14,17 +14,17 @@ import com.springreact.dsmovie.services.MovieService;
 @RestController
 @RequestMapping(value = "/movies")
 public class MovieControler {
-	
+
 	@Autowired
-	private MovieService movieservice;
+	private MovieService service;
 
 	@GetMapping
-	public Page<MovieDTO> findALL(Pageable pageable) {
-		return movieservice.findAll(pageable);
+	public Page<MovieDTO> findAll(Pageable pageable) {
+		return service.findAll(pageable);
 	}
-	
-	@GetMapping(value="/{id}")
+
+	@GetMapping(value = "/{id}")
 	public MovieDTO findById(@PathVariable Long id) {
-		return movieservice.findById(id);
+		return service.findById(id);
 	}
 }

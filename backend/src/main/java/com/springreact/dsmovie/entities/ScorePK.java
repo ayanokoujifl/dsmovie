@@ -18,8 +18,8 @@ public class ScorePK implements Serializable {
 	@ManyToOne
 	@JoinColumn(name="user_id")
 	private User user;
+	
 	public ScorePK() {
-		// TODO Auto-generated constructor stub
 	}
 	public Movie getMovie() {
 		return movie;
